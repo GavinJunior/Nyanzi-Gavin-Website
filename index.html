@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image:"junior.jpg";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("junior.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card-container{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    flex: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4ease;
+}
+.card:hover{
+    background-color: #ffcc80;
+}
+.card h2{
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: 000;
+}
+.card p{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.card1{
+    background-color: aqua;
+} 
+.card2{
+    background-color:grey;
+}
+.card3{
+    background-color: coral;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+ 
+<div id="navbar">
+  <a href="about me.html">About</a>
+  <a href="contacts.html">Contacts</a>
+  <a href="gallery.html">Gallery</a>
+</div>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:30px">I am Nyanzi Gavin Junior</h1>
+    <p>Tech is life</p>
+    <button>Get in Touch</button>
+  </div>
+</div>
+
+<div class="card-container">
+        <div class="card">
+  <img src="demo.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Nyanzi Gavin Junior</b></h4> 
+    <p>Networks Administrator</p> 
+  </div>
+</div>
+        <div class="card">
+  <img src="junior.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Course Offered</b></h4> 
+    <p>Pursuing Bachelor's in Networking and Administration</p> 
+  </div>
+</div>
+              <div class="card">
+  <img src="junior.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Achievements</b></h4> 
+    <p>
+        <ul><li>Received Dean's List for three consecutive semesters</li></ul>
+        <ul><li>Developed a personal project that gained recognition in the tech community</li></ul>
+        <ul><li>Volunteered for a local tech initiative, helping to teach coding to underprivileged youth</li></ul>
+    </p>
+  </div>
+</div>
+    </div>
+<footer>
+  <p>Designed by Nyanzi Gavin Junior:<br>
+  <a href="about.html">Learn more about me</a><br>
+  <a href="contacts.html">Contact Me</a>
+</p>
+</footer>
+</body>
+</html>

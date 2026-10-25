@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://jsdelivr.net" rel="stylesheet">
+  <style>
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .image-grid img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .video{
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;  
+        border-radius: 4px;
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5" style="max-width: 400px;">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">Projects</h3>
+        <p class="card-text">This is a 2x2 image grid for my projects:</p>
+        
+       
+        <div class="image-grid">
+          <img src="1.jpg" alt="Image 1">
+          <img src="2.jpg" alt="Image 2">
+          <img src="3.jpg" alt="Image 3">
+          <img src="4.jpg" alt="Image 4">
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+  <div class="video">
+    <h3>Video</h3>
+    <p>This is a video showcasing of me going for a workshop in Kigali:</p>
+  <video width="320" height="240" controls>
+  <source src="video 1.mp4" type="video/mp4">
+  <source src="video 1.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </div>
+</video>
+
+</body>
+</html>
+
+</body>
+</html>
